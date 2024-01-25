@@ -42,5 +42,19 @@ if answer.lower() == "13":
 else:
     print("Incorrect - you slow")    
 
+answer = input("Kevin Magnussen made a stunning return to Formula 1 in 2022 with what result in Bahrain? ")
+if answer.lower() == "6":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect - you slow") 
+
+answer = input("At the 2021 Azerbaijan Grand Prix, Max Verstappen and which other driver suffered tyre blowouts during the race? ")
+if answer.lower() == "lance stroll":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect - you slow") 
+
 print("You got " + str(score) +  " Questions correct")
-print("You got " + str((score / 5) * 100) + "%")
+print("You got " + str((score / 7) * 100) + "%")
